@@ -1,8 +1,8 @@
 <template>
-    <fieldset>
-        <label :for="name">{{ label }}</label>
-        <input type="number" :name="name" id="sideA" autocomplete="off" :placeholder="placeholderText" />
-      </fieldset>
+  <fieldset>
+    <label :for="name">{{ label }}</label>
+    <input :id="name" type="number" :name="name" autocomplete="off" :placeholder="placeholderText">
+  </fieldset>
 </template>
 
 <script>
